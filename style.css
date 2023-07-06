@@ -59,18 +59,13 @@ body{
      background-repeat: no-repeat;
      background-size: cover;
      color: white;
+     padding: 10px;
 }
 
 .text {
      font-size: 54px;
      font-weight: bold;
  }
-
-.banner-content h1{
-
-
-
-}
 
 .banner-content p {
      margin-top: 8px;
@@ -95,4 +90,50 @@ body{
 
 .banner-img img{
      width: 300px;
+}
+
+
+/* About us section start here */
+
+.aboutUs{
+
+     
+
+}
+
+.aboutUs h1{
+     text-align: center;
+     margin-top: 18px;
+
+}
+
+.about-section{
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     margin-top: 35px;
+
+}
+
+.about-img{
+
+}
+.about-img img{
+     width: 300px;
+}
+
+.about-content{
+
+}
+.about-content h2{
+     margin-bottom: 36px;
+     font-weight: 100;
+
+}
+.about-content p{
+     
+}
+.about-content button{
+     margin-top: 20px
+
 }
