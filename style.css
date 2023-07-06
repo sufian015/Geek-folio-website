@@ -10,7 +10,6 @@ body{
 
 
 /* Header-CSS ===>*/
-/*            */
 
 
 .header-container{
@@ -42,10 +41,58 @@ body{
 }
 
 .navbar a:hover{
-     color: red;
-     border-bottom: black;
+     background: #1ABC9B;
+     padding: 8px;
+     border-radius: 7px;
 
 }
 
 /* Banner-Section===> */
-/*                   */
+
+.banner{
+     
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     background-image: url("./images/background.png"),linear-gradient(45deg,rgb(14, 13, 13),rgb(59, 40, 40));
+     height: 100vh;
+     background-repeat: no-repeat;
+     background-size: cover;
+     color: white;
+}
+
+.text {
+     font-size: 54px;
+     font-weight: bold;
+ }
+
+.banner-content h1{
+
+
+
+}
+
+.banner-content p {
+     margin-top: 8px;
+ }
+
+ .banner-content button {
+     margin-top: 15px;
+ }
+
+ button.btn:hover {
+     background: #1ABC9B;
+ }
+
+.btn{
+     background-color: red;
+     padding: 10px;
+     color: white;
+     border-radius: 5px;
+     font-size: 15px;
+
+}
+
+.banner-img img{
+     width: 300px;
+}
