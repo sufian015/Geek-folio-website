@@ -115,24 +115,18 @@ body{
 
 }
 
-.about-img{
 
-}
 .about-img img{
      width: 300px;
 }
 
-.about-content{
 
-}
 .about-content h2{
      margin-bottom: 36px;
      font-weight: 100;
 
 }
-.about-content p{
-     
-}
+
 .about-content button{
      margin-top: 20px
 
@@ -198,3 +192,51 @@ body{
      margin-top: 22px;
 
 }
+
+
+/* footer section */
+
+.footer{
+
+     background-color: #060606;
+     color: white;
+
+}
+.footer-items{
+     display: flex;
+     width: 75%;
+     height: 60vh;
+     margin: 0 auto;
+     justify-content: space-around;
+     align-items: center;
+     border-bottom: 1px solid gray;
+
+}
+
+.footer-item1{
+     width: 25%;
+
+}
+
+.footer-item1 img{
+     width: 170px;
+     padding: 5px;
+}
+
+
+.footer> p{
+     text-align: center;
+     padding: 15px;
+     font-size: 16px;
+}
+
+.footer-item2 h4 {
+     margin-bottom: 20px;
+ }
+ .footer-item3 h4 {
+     margin-bottom: 20px;
+ }
+ .footer-item4 h4 {
+     margin-bottom: 20px;
+ }
+ 
